@@ -1,4 +1,69 @@
-baseURL = 'https://example.org/'
-languageCode = 'en-us'
+baseURL = 'http://rrcarter.github.io'
 title = 'Rebecca Carter'
 theme = 'hermit'
+
+# TAAL
+defaultContentLanguage = 'nl-be'
+languageCode = 'nl-be'
+
+[author]
+    name = "Rebecca Carter"
+
+[permalinks]
+    posts = "/:year/:month/:day/:title/"
+
+[params]
+    homeSubtitle = "Gewoon je vriendelijke buurt-quant en ongegeneerde Emacs fan"
+    description = "Een technologieblog over statistieken uit de real world evidence statistiek, tekstmining, en data-engineering met tips en tutorial van Rebecca Carter"
+    justifyContent = false
+    relatedPosts = true
+
+[params.gallery]
+    enable = true
+    thumbnail = '40'
+
+    [[params.socialLinks]]
+        name = "linkedin"
+        url = "https://www.linkedin.com/in/rebeccarcarter/"
+        
+
+[params.dateform]
+    dateform = "2 jan, 2006"
+    dateformShort = "2 jan"
+    dateformNum   = "2006-02-01"
+    dateformNumTime = "02-01-2006 15:04 -0700"
+
+
+[menu]
+
+[[menu.main]]
+    identifier = "overmij"
+    name = "Over mij"
+    url = "/overmij/"
+    weight = 10
+
+# [[menu.main]]
+#     identifier = "posts"
+#     name = "Laaste berichten"
+#     url = "/posts/"
+#     weight = 20
+
+[[menu.main]]
+    name = "AI + Artikels"
+    url = "/pubs/"
+    # url = "/ervaring_en_onderzoek/"
+    weight = 40  
+
+[[menu.main]]
+    identifier = "talks"
+    name = "Lezingen"
+    url = "/talks/"
+    weight = 30
+
+        
+
+      
+
+
+
+

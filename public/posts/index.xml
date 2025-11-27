@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/">
+	<channel>
+		<title>Posts on Rebecca Carter</title>
+		<link>http://localhost:1313/posts/</link>
+		<description>Recent content in Posts on Rebecca Carter</description>
+		<generator>Hugo -- 0.152.2</generator>
+		<language>nl-be</language>
+		<lastBuildDate>Thu, 27 Nov 2025 00:00:00 +0000</lastBuildDate>
+		<atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
+		
+		
+		<item>
+			<title>Voorbeeld</title>
+			<link>http://localhost:1313/2025/11/27/voorbeeld/</link>
+			<pubDate>Thu, 27 Nov 2025 00:00:00 +0000</pubDate><author>Rebecca Carter</author><guid>http://localhost:1313/2025/11/27/voorbeeld/</guid>
+			<description><![CDATA[&lt;no value&gt;]]></description><content type="text/html" mode="escaped"><![CDATA[]]></content>
+		</item>
+		
+	</channel>
+</rss>
