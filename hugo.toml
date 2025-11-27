@@ -12,8 +12,6 @@ languageCode = 'nl-be'
 [author]
     name = "Rebecca Carter"
 
-
-
 [permalinks]
     posts = "/:year/:month/:day/:title/"
 
