@@ -7,7 +7,7 @@ Hoi, ik ben Rebecca Carter. Ik heb van dag één in mijn carrière
 gewerkt met complexe, rommelige data. Mijn onderzoek in machine learning van tekst gepaard  met digitale crowdsourcing kreeg
 wereldwijde erkenning. Ik heb code geschreven in meerdere talen afhankelijk van het platform,
 maar ik heb wel een boontje voor Python, R, en SAS. Kijk op hier for
-mijn ervaring en 
+mijn [ervaring en publicaties](https://rrcarter.github.io/pubs/#evaring-met-ai).
 
 ## "Rebecca is keigoed verstaanbar"
 
