@@ -1,6 +1,9 @@
 baseURL = 'http://rrcarter.github.io'
 title = 'Rebecca Carter'
-theme = 'hermit'
+
+[module]
+  [[module.imports]]
+    path = "github.com/1bl4z3r/hermit-V2"
 
 # TAAL
 defaultContentLanguage = 'nl-be'
@@ -8,6 +11,8 @@ languageCode = 'nl-be'
 
 [author]
     name = "Rebecca Carter"
+
+
 
 [permalinks]
     posts = "/:year/:month/:day/:title/"
