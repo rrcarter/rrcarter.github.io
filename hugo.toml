@@ -52,7 +52,7 @@ languageCode = 'nl-be'
 #     weight = 20
 
 [[menu.main]]
-    name = "AI + Artikels"
+    name = "AI + Publicaties"
     url = "/pubs/"
     # url = "/ervaring_en_onderzoek/"
     weight = 40  

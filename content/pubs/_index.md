@@ -1,6 +1,8 @@
 ---
-title: "Ervaring en Artikels"
+title: "Ervaring en Publicaties"
 date: "2025-11-27T10:00:00+01:00"
+body_class: "pubs-pagina"
+
 ---
 
 # Interesse?
@@ -49,8 +51,9 @@ voor observationele en prospectieve studies.
 - Mijn eerste auteur artikel “Addiction and Generation Me” wordt vaak
   geciteerd in nieuwsmedia en medische handboeken.
 
+---
 
-## [Geselecteerd Artikels](#geselecteerd-artikels)
+## [Geselecteerd Publicaties](#geselecteerd-artikelen)
 - Addison, D., Carter, R.R., et. al. (2024). Representation of Women in Clinical Trials Supporting FDA-approval of Contemporary Cancer Therapies. Int. J. Cancer. 
 - Carter, R.R., et. al. (2020). Antibiotic Use Among Residents Receiving Skilled Nursing Care in 29 US Nursing Homes. J. Am. Geriatr. Soc. 
 - Addison, D., Carter. R.R., et. al. (2020). Readmission after inferior vena cava filter placement for acute venous thromboembolism in the United States. Journal of Cardiac Surgery.

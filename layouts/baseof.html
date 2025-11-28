@@ -21,10 +21,43 @@
 	<link rel="stylesheet dns-prefetch preconnect preload prefetch" as="style" media="print" href="{{ $PRNTCSS.Permalink }}" {{ printf "integrity=%q" $PRNTCSS.Data.Integrity | safeHTMLAttr }} crossorigin="anonymous">
 	{{- end -}}
 	{{- block "head" . -}}{{- end -}}
-	{{- if templates.Exists "partials/extra-head.html" -}}{{- partial "extra-head.html" . -}}{{- end -}}
+	{{- if templates.Exists "partials/extra-head.html" -}}{{-
+	partial "extra-head.html" . -}}{{- end -}}
+
+
+{{ if .Params.body_class }}
+<style>
+/* Custom updates for the Publication page layout */	  
+.{{ .Params.body_class }} .content,
+.{{ .Params.body_class }} .content p,
+.{{ .Params.body_class }} .content li {
+  font-weight: 300 !important;
+  line-height: 1.15 !important;
+}
+/* Color matches the link for readibility */
+.{{ .Params.body_class }} h4,
+.{{ .Params.body_class }} strong {
+  color: #018472 !important; 
+}
+
+/* Divider */
+.{{ .Params.body_class }} h3::before {
+  content: " ⋮ ";  
+  display: block;
+  font-size: 0.8em;
+  color: #999;
+  margin: 0.5rem auto;
+  text-align: center;
+  width: fit-content;
+
+}
+
+</style>
+{{ end }}
 </head>
 
-<body id="page">
+<!-- Updated for Ervaring en Publicaties page -->
+<body id="page" {{- with .Params.body_class }} class="{{ . }}" {{- end -}}>
 	{{- partial "google-tag-manager.html" (dict "context" . "name" "body") -}}
 	{{- block "header" . -}}{{ end -}}
 	{{- block "main" . -}}{{ end -}}
